@@ -42,10 +42,6 @@ a {
     align-items: center;
 }
 
-div {
-margin: 15px;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -57,12 +53,12 @@ input {
     border: 1px lightgrey solid;
     border-radius: 50px;
     padding: 16px;
-    width: 300%;
+    width: 200%;
     font-size: large;
 }
 
-input:active {
-    border: 1px lightgrey solid;
+input:focus {
+        border: 1px lightgrey solid;
 }
 
 button {
